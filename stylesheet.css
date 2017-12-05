@@ -1,0 +1,119 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.topbar-left {
+ clear:left;
+  margin:5px;
+  padding:10px;
+
+  /*padding-top: 25px;
+  top: -295px;
+    right: 0;
+    width: 100%;
+  */
+}
+.topbar-right {
+  float: right;
+
+
+
+}
+
+img {
+   display: block;
+    margin: auto;
+}
+.image {
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;olute */
+
+}
+.right-sign1 {
+ background-color: #4387fd;
+    color: white;
+    padding: 7px 13px;
+    text-align: center;
+    margin: 0px 4px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+}
+.fa-th {
+  font-size: 24px;
+}
+
+.button-search {
+  background-color: #f8f8f8;
+  color: #757575;
+  border: none;
+  padding: 12px 29px;
+ text-align:center;
+  margin: 11px 4px;
+  text-decoration: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.button-search:hover {
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: black;
+}
+
+
+
+a {
+  color: grey;
+  text-decoration: none;
+  padding: 14px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* search bar, unable to re-size the input or through html */
+.search {
+  display: block;
+  text-align: -webkit-center;
+  line-height: 0;
+  overflow: visible;
+  white-space: nowrap;
+  margin-top: 15px;
+
+
+}
+/* was able to style the input with research, but unable to size through this div or through .search */
+input{
+ background-color: #fff;
+  width:344px;
+    height: 44px;
+    vertical-align: top;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  border:none;
+
+}
+
+
+
+/* was able to find the clear option that was used in the float in the top of the page to align with the bottom. */
+footer{
+  position: absolute;
+  clear:both;
+  bottom: 0;
+  height:35px;
+  background-color: #efefef;
+  right: 0;
+  left: 0;
+  z-index: 10;
+      line-height: 10px;
+ }
